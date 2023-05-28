@@ -1,5 +1,8 @@
 <h1> To Do List :computer:  </h1>
 <h3>Project developed during the <a href="https://rodolfomori.com.br/devclub/">DevClub</a> course.</h3>
+<br>
+
+<h3> Desktop version only!<h3>
 
 <br>
 
