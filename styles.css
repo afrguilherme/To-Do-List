@@ -8,6 +8,7 @@
 
 body {
   background: url("./assets/background.png");
+  background-size: cover;
   height: 100vh;
   background-color: rgb(129, 129, 129);
 }
@@ -83,4 +84,20 @@ img {
 .done {
   background-color: #8fac55;
   text-decoration: line-through;
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    max-width: 345px;
+  }
+
+  .input-task {
+    max-width: 190px;
+    max-height: 35px;
+  }
+
+  .button-add-task {
+    max-width: 100px;
+    max-height: 35px;
+  }
 }
