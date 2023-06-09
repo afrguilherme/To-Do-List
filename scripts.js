@@ -5,11 +5,14 @@ const completeList = document.querySelector(".tasks-list");
 let MyTaskList = [];
 
 function addNewTask() {
-  MyTaskList.push({
-    task: input.value,
-    complete: false,
-  });
-
+  if (input.value === "") {
+    alert("You need to write some task!");
+  } else {
+    MyTaskList.push({
+      task: input.value,
+      complete: false,
+    });
+  }
   input.value = "";
 
   showNewTask();
