@@ -2,10 +2,6 @@
 <h3>Project developed during the <a href="https://rodolfomori.com.br/devclub/">DevClub</a> course.</h3>
 <br>
 
-<h3> Desktop version only!<h3>
-
-<br>
-
 <h2>Technologies used:</h2>
 <br>
 
